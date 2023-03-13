@@ -1,5 +1,5 @@
-##Laravel Blog
-####Project built with:-
+## Laravel Blog
+#### Project built with:-
 
 -   PHP
 -   Laravel
@@ -7,11 +7,12 @@
 -   Tailwindcss
 -   Mysql Database
 
-####Project Features:-
+#### Project Features:-
 
 -   Full Authentication System
 -   Search by Post or Category
 -   Filter by Category
+-   Add Comments to post
 
 ![All Posts](screencapture/screencapture-1.png)
 ![Single Post](screencapture/screencapture-2.png)
