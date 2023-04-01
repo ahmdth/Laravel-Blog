@@ -5,7 +5,7 @@ jobs:
   build:
     docker:
       # Specify the version you desire here
-      - image: cimg/php:7.4.14-browsers
+      - image: cimg/php:8.0.28-browsers
 
     steps:
       - browser-tools/install-browser-tools
@@ -40,7 +40,7 @@ jobs:
 
       - run:
           name: "Install sqlite"
-          command: sudo apt-get install php7.4-sqlite3
+          command: sudo apt-get install php8.0-sqlite3
 
       - run:
           name: "Create database and run migration"
