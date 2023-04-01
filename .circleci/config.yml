@@ -3,6 +3,7 @@ orbs:
   browser-tools: circleci/browser-tools@1.1
 jobs:
   build:
+    working_directory: ~/Laravel-Blog
     docker:
       # Specify the version you desire here
       - image: cimg/php:8.0.28-browsers
